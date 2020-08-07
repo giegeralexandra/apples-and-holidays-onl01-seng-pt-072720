@@ -60,7 +60,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.collect do |season, holiday|
-    holiday.collect do |decorations|
+    holiday.collect do |holiday, decorations|
       if decorations == "BBQ"
         puts "#{holiday}"
       end
