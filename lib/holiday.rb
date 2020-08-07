@@ -63,6 +63,9 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |holiday, decorations|
       if holiday == "BBQ"
         puts "#{holiday}"
+      end
+    end
+  end
 end
 
 
